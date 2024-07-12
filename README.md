@@ -7,7 +7,7 @@ You can clone the repository using HTTPS/SSH method
 ```bash
 git clone https://github.com/ssspetrovic/c-sort.git
 ```
-After the repository is cloned, change to it's directory:
+After the repository is cloned, change to its directory:
 ```bash
 cd c-sort
 ```
