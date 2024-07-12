@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include "sort.h"
+#include "util.h"
 
 #define ARRAY_LEN 6
 
+int array[6] = {5, 2, 4, 6, 1, 3};
+
 int main()
 {
-    int arr[6] = { 5, 2, 4, 6, 1, 3 };
-    insertion_sort(arr, ARRAY_LEN);
-
-    for (int i = 0; i < ARRAY_LEN; ++i)
-        printf("%d ", arr[i]);
+    print_sort_header("INSERTION SORT");
+    print_sort(array, ARRAY_LEN, insertion_sort);
+    print_sort_header("INSERTION SORT");
 
     return 0;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void insertion_sort(int array[], int length)
+void insertion_sort(int array[], size_t length)
 {
     for (int j = 1; j < length; ++j)
     {
@@ -12,7 +12,7 @@ void insertion_sort(int array[], int length)
             array[i + 1] = array[i];
             --i;
         }
-        
+
         array[i + 1] = key;
     }
 }
