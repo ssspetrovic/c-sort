@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 void insertion_sort(int array[], int length)
 {
     for (int j = 1; j < length; ++j)
