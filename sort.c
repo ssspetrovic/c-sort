@@ -1,6 +1,6 @@
-void insertion_sort(int array[], int length)
+void insertion_sort(int array[], int size)
 {
-    for (int j = 1; j < length; ++j)
+    for (int j = 1; j < size; ++j)
     {
         int key = array[j];
         int i = j - 1;
