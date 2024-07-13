@@ -5,13 +5,15 @@
 
 #define ARRAY_LEN 6
 
-int array[6] = {5, 2, 4, 6, 1, 3};
-
 int main()
 {
-    print_sort_header("INSERTION SORT");
-    print_sort(array, ARRAY_LEN, insertion_sort);
-    print_sort_header("INSERTION SORT");
+    int array[ARRAY_LEN] = {5, 2, 4, 6, 1, 3};
+
+    // Test insertion sort
+    print_sort(array, ARRAY_LEN, INSERTION);
+
+    // Test merge sort
+    print_sort(array, ARRAY_LEN, MERGE);
 
     return 0;
 }
