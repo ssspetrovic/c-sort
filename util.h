@@ -1,6 +1,8 @@
 #ifndef UTIL_H
 #define UTIL_H
 
+#include "util.c"
+
 typedef enum
 {
     INSERTION = 0,
